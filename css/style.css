@@ -7,7 +7,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 80px;
 }
 
 .container{
@@ -159,7 +159,7 @@ nav .active a, nav a:hover{
 }
 
 .widget_title{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -479,8 +479,8 @@ footer .widget_title_text{
     display: none;
     width: 40px;
     height: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
 }
 
@@ -489,7 +489,7 @@ footer .widget_title_text{
     background-color: #000;
 }
 
-@media (max-width: 600px){
+@media (max-width: 940px){
     #geral{
         margin-top: 150px;
     }
@@ -538,7 +538,7 @@ footer .widget_title_text{
     }
 
     header{
-        height: auto;
+        height: 60px;
     }
 
     header .logo{
