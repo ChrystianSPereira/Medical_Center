@@ -279,10 +279,6 @@ footer .widget_title_text{
     color: #ffffff;
 }
 
-.widget_body{
-    padding: 5px;
-}
-
 .widget_body .widget_body_desc{
     color: #5c5c5c;
     font-size: 15px;
@@ -308,6 +304,88 @@ footer .widget_title_text{
 
 .widget_body_buttons{
     display: flex;
+}
+
+.widget_body .primary_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #0079c7;
+}
+
+.widget_body .primary_box_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.widget_body .primary_box_info img{
+    width: 70px;
+    height: 70px;
+    background: -webkit-linear-gradient(left, #f93552, #f96ca0);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.widget_body .primary_box_buttons{
+    display: flex;
+    right: 0;
+}
+
+.widget_body .primary_box_buttons a{
+    text-decoration: none;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.widget_body .primary-health-list{
+    margin-top: 50px;
+}
+
+.widget_body .primary-health-list a{
+    text-decoration: none;
+}
+
+.widget_body .primary-health-list h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    color: #636363;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.primary_box_buttons{
+    display: flex;
+    justify-content: right;
+}
+
+.primary_box_buttons .button_1{
+    margin-right: 15px;
+}
+
+.primary_box_buttons .button_1, 
+.primary_box_buttons .button_2 {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 2px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0079c7;
+}
+
+.primary_box_buttons .button_1:hover, 
+.primary_box_buttons .button_2:hover {
+    background-color: #449ad3;
 }
 
 .widget_button_1, .widget_button_2, .widget_button_3, .widget_button_4{
@@ -390,7 +468,7 @@ footer .widget_title_text{
     }
 
     .container{
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .banner_headline{
