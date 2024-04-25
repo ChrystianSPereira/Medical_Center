@@ -160,7 +160,7 @@ nav .active a, nav a:hover{
 
 .widget_title{
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .widget_title_text{
@@ -217,7 +217,6 @@ article .news_thumbnail{
 article .news_thumbnail img{
     width: 100%;
     height: auto;
-    max-width: 300px;
 }
 
 article .news_title{
@@ -269,6 +268,7 @@ footer{
 .footer_areaitem{
     flex: 1;
     color: #ffffff;
+    padding-right: 5px;
 }
 
 .flexColumn{
@@ -310,7 +310,6 @@ footer .widget_title_text{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     height: 20px;
     color: #fff;
     font-size: 17px;
@@ -386,6 +385,43 @@ footer .widget_title_text{
 .primary_box_buttons .button_1:hover, 
 .primary_box_buttons .button_2:hover {
     background-color: #449ad3;
+}
+
+.apoinemtn_desc{
+    color: #636363;
+    font-size: 14px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.phone-contact,
+.mail-contact,
+.form-contact{
+    color: #636363;
+    padding: 10px 0px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.phone-contact i,
+.mail-contact i,
+.form-contact i{
+    margin-right: 10px;
+}
+
+.phone-contact,
+.mail-contact,
+.form-contact{
+    display: flex;
+    align-items: center;
+}
+
+.phone-desc span{
+    color: #000000;
+}
+
+.mail-contact .mail-desc a,
+.mail-contact .contact-desc a{
+    text-decoration: none;
 }
 
 .widget_button_1, .widget_button_2, .widget_button_3, .widget_button_4{
